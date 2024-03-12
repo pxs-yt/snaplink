@@ -1,12 +1,15 @@
-.html {
+body {
     height: 100%;
-}
-
-.body {
-    height: 100%;
-}
-
-.iframe {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: absolute;
-}
+    height: 100%;
+    border: none;
+  }
